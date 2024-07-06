@@ -10,9 +10,16 @@
     },
     "authors": [
         {
-            "name": "balachandran-65",
-            "email": "balachandran654321@gmail.com"
+            "name": "balachandran12",
+            "email": "balachandran@saasforest.com"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BalachandranLaraMessage\\Message\\MessageProvider"
+            ]
+        }
+    },
     "require": {}
 }
