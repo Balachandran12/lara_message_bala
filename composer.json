@@ -1,0 +1,18 @@
+{
+    "name": "balachandran_lara_message/message",
+    "description": "This work one message chat",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BalachandranLaraMessage\\Message\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "balachandran-65",
+            "email": "balachandran654321@gmail.com"
+        }
+    ],
+    "require": {}
+}
