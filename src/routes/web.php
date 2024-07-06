@@ -9,3 +9,7 @@ Route::get('/message',function(){
 });
 
 Route::get('/hellow', [Hellow::class, 'index']);
+
+Route::get('/messag',function(){
+    return 'Hi sdfsdf this message chat';
+});
