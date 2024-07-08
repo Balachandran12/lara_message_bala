@@ -1,6 +1,6 @@
 <?php
 
-namespace BalachandranLaraMessage\Message;
+namespace BalachandranLaraMessage\Message\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 
@@ -8,6 +8,6 @@ class Hellow extends Controller
 {
     public function index(){
         
-        return 'Hellow Worl this first package';
+        return view('message::message1');
     }
 }
